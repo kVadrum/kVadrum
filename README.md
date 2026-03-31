@@ -9,3 +9,5 @@ Part of [KeMeK Network](https://kemek.com).
 ---
 
 *More here soon, thank you for your interest.*
+
+KeMeK Network © 2026
