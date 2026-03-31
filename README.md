@@ -2,7 +2,7 @@
 
 BUILD MODE. Systems, prototyping, and crafting software at the bleeding edge.
 
-Currently exploring agentic AI workflows, full-stack product development, and crypto infrastructure.
+Building modular, privacy-first web tools and full-stack products — powered by AI-augmented development.
 
 Part of [KeMeK Network](https://kemek.com).
 
