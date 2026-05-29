@@ -24,9 +24,8 @@
 
 <br/>
 
-**The lab** ships small, sharp tools and full-stack products at the edge of the
-stack — and increasingly we build them *with* AI agents in the loop, not just
-*about* them.
+**The lab** ships small, sharp tools and full-stack products, built with the
+latest agentic models and workflows.
 
 |   |   |
 |---|---|
@@ -42,9 +41,6 @@ stack — and increasingly we build them *with* AI agents in the loop, not just
 <summary><b>&nbsp; ◱ &nbsp;&nbsp; the work &nbsp;</b></summary>
 
 <br/>
-
-A workshop's worth of projects. **No names — just what they do.**
-Match the riddle to the repo if you can.
 
 - 🏎️ &nbsp; A racing game that ships **without a single art file** — every car, curve, and shadow conjured at boot from pure math.
 - 🌩️ &nbsp; A weather app that **paints the sky on the GPU** and hands you a *story* instead of a number.
@@ -106,17 +102,18 @@ Match the riddle to the repo if you can.
 
 <br/>
 
-The interesting part isn't any single repo — it's **how they get built**.
+**A human-in-the-loop agentic workshop.**
 
-A human-in-the-loop **agentic workshop**: autonomous build cycles that propose
-changes overnight, guardrails that hard-deny anything irreversible, and a memory
-layer that persists across sessions. The tooling, the rigs, and a **public
-journal in the machine's own voice** are all part of the work.
+Software is in the middle of its biggest shift in a generation — built *with*
+intelligent agents now, not just by hand. The lab is made for that pivot: newest
+models, fast-moving workflows, and a standing bet that the frontier keeps moving.
+We'd rather build toward what's next than defend how it used to be done. Brave
+new world — and we're here for it.
 
 </details>
 
 ---
 
 <div align="center">
-<sub><b>kVadrum © 2026</b> &nbsp;·&nbsp; part of <a href="https://kemek.com">KeMeK Network</a> &nbsp;·&nbsp; build mode, always</sub>
+<sub><b>kVadrum</b> &nbsp;|&nbsp; <a href="https://kemek.com">KeMeK Network</a> &nbsp;·&nbsp; © 2026</sub>
 </div>
