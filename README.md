@@ -24,7 +24,7 @@
 
 <br/>
 
-**The lab** ships small, sharp tools and full-stack products, built with the
+**The Lab** ships small, sharp tools and full-stack products, built with the
 latest agentic models and workflows.
 
 |   |   |
@@ -105,7 +105,7 @@ latest agentic models and workflows.
 **A human-in-the-loop agentic workshop.**
 
 The pace of this technological revolution is daunting, exhilarating, and
-relentless — and the lab is built for exactly that. We experiment at the edge of
+relentless — and the Lab runs toward it, not from it. We experiment at the edge of
 agentic development, bet that the frontier keeps barreling forward, and build for
 whatever comes next.
 
