@@ -6,12 +6,7 @@
 
 <br/><br/>
 
-<!-- wordmark fallback — renders even before banner.svg lands -->
-### ◰◱◲◳ &nbsp; kVadrum &nbsp; ◳◲◱◰
-
-**`BUILD MODE`** &nbsp;—&nbsp; systems · prototyping · software at the bleeding edge
-
-<sub>privacy-first · local-first · modular · agent-native</sub>
+<sub>full-stack · systems · privacy-first · local-first · agent-native</sub>
 
 <br/>
 
@@ -21,10 +16,6 @@
 
 </div>
 
-<br/>
-
-> **Four quadrants, one workshop.** Pick a square.
-
 ---
 
 <!-- ◰ ──────────────────────────────────────────────────────────────────────── -->
@@ -33,15 +24,16 @@
 
 <br/>
 
-I build **small, sharp tools** and **full-stack products** at the edge of the
-stack — and increasingly I build them *with* AI agents, not just *about* them.
+**The lab** ships small, sharp tools and full-stack products at the edge of the
+stack — and increasingly we build them *with* AI agents in the loop, not just
+*about* them.
 
 |   |   |
 |---|---|
+| 🧱 **Full-stack** | frontend, backend, native, and the data layer underneath |
 | 🔒 **Privacy-first** | local-first by default; the cloud has to earn its place |
 | 🧩 **Composable** | small cores, swappable parts, no decade-old admin UX |
-| ⚡ **Build mode** | prototype fast, ship sharp, document the *why* |
-| 🤖 **Agent-native** | humans and machines are both first-class readers |
+| 🤖 **Agent-native** | humans *and* machines are first-class readers — built for both |
 
 </details>
 
