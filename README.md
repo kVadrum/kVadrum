@@ -6,10 +6,6 @@
 
 <br/><br/>
 
-### full-stack · systems · privacy-first · local-first · agent-native
-
-<br/>
-
 <a href="https://kemek.com"><img height="34" alt="part of KeMeK Network" src="https://img.shields.io/badge/part_of-KeMeK_Network-0d1117?style=for-the-badge&labelColor=0d1117&color=2dd4bf"></a>
 &nbsp;
 <a href="https://kvadrum.com"><img height="34" alt="kvadrum.com" src="https://img.shields.io/badge/kvadrum-.com-0d1117?style=for-the-badge&labelColor=0d1117&color=64748b"></a>
@@ -24,8 +20,9 @@
 
 <br/>
 
-**The Lab** ships small, sharp tools and full-stack products, built with the
-latest agentic models and workflows.
+**The Lab** ships small, sharp tools and full-stack systems — privacy-first,
+local-first, and agent-native — built with the latest agentic models and
+workflows.
 
 |   |   |
 |---|---|
