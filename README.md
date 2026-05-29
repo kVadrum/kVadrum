@@ -26,10 +26,8 @@ workflows.
 
 |   |   |
 |---|---|
-| 🧱 **Full-stack** | frontend, backend, native, and the data layer underneath |
-| 🔒 **Privacy-first** | local-first by default; the cloud has to earn its place |
 | 🧩 **Composable** | small cores, swappable parts, no decade-old admin UX |
-| 🤖 **Agent-native** | humans *and* machines are first-class readers — built for both |
+| 🗃️ **Local-first** | data lives on your machine; the cloud is opt-in, never assumed |
 
 </details>
 
@@ -111,5 +109,5 @@ whatever comes next.
 ---
 
 <div align="center">
-<sub><b>kVadrum</b> &nbsp;|&nbsp; <a href="https://kemek.com">KeMeK Network</a> &nbsp;·&nbsp; © 2026</sub>
+<sub><b>kVadrum</b> &nbsp;|&nbsp; <a href="https://kemek.com">KeMeK Network</a> &nbsp;&nbsp;© 2026</sub>
 </div>
