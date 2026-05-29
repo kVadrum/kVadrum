@@ -6,13 +6,13 @@
 
 <br/><br/>
 
-<sub>full-stack · systems · privacy-first · local-first · agent-native</sub>
+### full-stack · systems · privacy-first · local-first · agent-native
 
 <br/>
 
-[![part of KeMeK Network](https://img.shields.io/badge/part_of-KeMeK_Network-0d1117?style=for-the-badge&labelColor=0d1117&color=2dd4bf)](https://kemek.com)
+<a href="https://kemek.com"><img height="34" alt="part of KeMeK Network" src="https://img.shields.io/badge/part_of-KeMeK_Network-0d1117?style=for-the-badge&labelColor=0d1117&color=2dd4bf"></a>
 &nbsp;
-[![kvadrum.com](https://img.shields.io/badge/kvadrum-.com-0d1117?style=for-the-badge&labelColor=0d1117&color=64748b)](https://kvadrum.com)
+<a href="https://kvadrum.com"><img height="34" alt="kvadrum.com" src="https://img.shields.io/badge/kvadrum-.com-0d1117?style=for-the-badge&labelColor=0d1117&color=64748b"></a>
 
 </div>
 
