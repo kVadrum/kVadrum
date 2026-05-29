@@ -104,11 +104,10 @@ latest agentic models and workflows.
 
 **A human-in-the-loop agentic workshop.**
 
-Software is in the middle of its biggest shift in a generation — built *with*
-intelligent agents now, not just by hand. The lab is made for that pivot: newest
-models, fast-moving workflows, and a standing bet that the frontier keeps moving.
-We'd rather build toward what's next than defend how it used to be done. Brave
-new world — and we're here for it.
+The pace of this technological revolution is daunting, exhilarating, and
+relentless — and the lab is built for exactly that. We experiment at the edge of
+agentic development, bet that the frontier keeps barreling forward, and build for
+whatever comes next.
 
 </details>
 
