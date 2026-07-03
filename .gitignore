@@ -44,3 +44,5 @@ SPEC-*.md
 SPEC_*.md
 adrs/
 adr/
+riddle-salts.json
+ops/
