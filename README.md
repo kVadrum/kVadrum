@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="assets/banner.svg" alt="kVadrum — build mode" width="860" />
+<img src="assets/banner.svg" alt="kVadrum — the lab, online" width="860" />
 
 <br/><br/>
 
@@ -10,11 +10,23 @@
 &nbsp;
 <a href="https://kvadrum.com"><img height="34" alt="kvadrum.com" src="https://img.shields.io/badge/kvadrum-.com-0d1117?style=for-the-badge&labelColor=0d1117&color=64748b"></a>
 
+<br/><br/>
+
+<!-- clickable quadrant console -->
+<a href="#q-whoami"><kbd> &nbsp;◰&nbsp;&nbsp; whoami &nbsp; </kbd></a>
+&nbsp;
+<a href="#q-work"><kbd> &nbsp;◱&nbsp;&nbsp; the work &nbsp; </kbd></a>
+<br/><br/>
+<a href="#q-stack"><kbd> &nbsp;◲&nbsp;&nbsp; the stack &nbsp; </kbd></a>
+&nbsp;
+<a href="#q-lab"><kbd> &nbsp;◳&nbsp;&nbsp; the lab &nbsp; </kbd></a>
+
 </div>
 
 ---
 
 <!-- ◰ ──────────────────────────────────────────────────────────────────────── -->
+<a id="q-whoami" name="q-whoami"></a>
 <details open>
 <summary><b>&nbsp; ◰ &nbsp;&nbsp; whoami &nbsp;</b></summary>
 
@@ -32,68 +44,109 @@ workflows.
 </details>
 
 <!-- ◱ ──────────────────────────────────────────────────────────────────────── -->
+<a id="q-work" name="q-work"></a>
 <details>
 <summary><b>&nbsp; ◱ &nbsp;&nbsp; the work &nbsp;</b></summary>
 
 <br/>
 
-- 🏎️ &nbsp; A racing game that ships **without a single art file** — every car, curve, and shadow conjured at boot from pure math.
-- 🌩️ &nbsp; A weather app that **paints the sky on the GPU** and hands you a *story* instead of a number.
-- 🔗 &nbsp; A QR generator that **never sees your data** — the whole design lives inside the link itself.
-- 📐 &nbsp; `du`, but for **context windows**: will your codebase fit inside the model's head? Answered fully offline.
-- 🪶 &nbsp; A conversation with history's great minds who **only know what they actually wrote** — no costume, just their corpus.
-- 🧾 &nbsp; A finance app that **refuses to phone home** — your money's story never leaves your disk.
-- 🧱 &nbsp; A from-scratch answer to the 20-year-old CMS: a **tiny core that mounts a few dozen swappable organs**.
-- 🛰️ &nbsp; Tooling for getting found in a web where the **search box is now a language model**.
-- 🧪 &nbsp; A test bench for the **guardrails that guard the robot**.
-- 📓 &nbsp; A public notebook written in **the machine's own voice**, about building software beside a human.
+**Ten riddles.** Names stay sealed until they ship — expand one to test your guess.
+
+<details>
+<summary>🏎️ &nbsp; A racing game that ships <b>without a single art file</b> — every car, curve, and shadow conjured at boot from pure math.</summary>
+
+> <sub>`godot` &nbsp;·&nbsp; `pure-math` &nbsp;·&nbsp; no art ships &nbsp;&nbsp;—&nbsp;&nbsp; ◇ *sealed*</sub>
+
+</details>
+
+<details>
+<summary>🌩️ &nbsp; A weather app that <b>paints the sky on the GPU</b> and hands you a <i>story</i> instead of a number.</summary>
+
+> <sub>`swift` &nbsp;·&nbsp; `metal` &nbsp;·&nbsp; a story, not a number &nbsp;&nbsp;—&nbsp;&nbsp; ◇ *sealed*</sub>
+
+</details>
+
+<details>
+<summary>🔗 &nbsp; A QR generator that <b>never sees your data</b> — the whole design lives inside the link itself.</summary>
+
+> <sub>`sveltekit` &nbsp;·&nbsp; offline &nbsp;·&nbsp; it lives in the link &nbsp;&nbsp;—&nbsp;&nbsp; ◇ *sealed*</sub>
+
+</details>
+
+<details>
+<summary>📐 &nbsp; <code>du</code>, but for <b>context windows</b>: will your codebase fit inside the model's head? Answered fully offline.</summary>
+
+> <sub>`typescript` &nbsp;·&nbsp; offline &nbsp;·&nbsp; counts tokens, not bytes &nbsp;&nbsp;—&nbsp;&nbsp; ◇ *sealed*</sub>
+
+</details>
+
+<details>
+<summary>🪶 &nbsp; A conversation with history's great minds who <b>only know what they actually wrote</b> — no costume, just their corpus.</summary>
+
+> <sub>`rag` &nbsp;·&nbsp; one corpus, no costume &nbsp;&nbsp;—&nbsp;&nbsp; ◇ *sealed*</sub>
+
+</details>
+
+<details>
+<summary>🧾 &nbsp; A finance app that <b>refuses to phone home</b> — your money's story never leaves your disk.</summary>
+
+> <sub>`tauri` &nbsp;·&nbsp; `rust` &nbsp;·&nbsp; no telemetry, ever &nbsp;&nbsp;—&nbsp;&nbsp; ◇ *sealed*</sub>
+
+</details>
+
+<details>
+<summary>🧱 &nbsp; A from-scratch answer to the 20-year-old CMS: a <b>tiny core that mounts a few dozen swappable organs</b>.</summary>
+
+> <sub>`sveltekit` &nbsp;·&nbsp; a nucleus + its modules &nbsp;&nbsp;—&nbsp;&nbsp; ◇ *sealed*</sub>
+
+</details>
+
+<details>
+<summary>🛰️ &nbsp; Tooling for getting found in a web where the <b>search box is now a language model</b>.</summary>
+
+> <sub>the query is a model now &nbsp;·&nbsp; be legible to it &nbsp;&nbsp;—&nbsp;&nbsp; ◇ *sealed*</sub>
+
+</details>
+
+<details>
+<summary>🧪 &nbsp; A test bench for the <b>guardrails that guard the robot</b>.</summary>
+
+> <sub>`mcp` &nbsp;·&nbsp; audit the agent's fences &nbsp;&nbsp;—&nbsp;&nbsp; ◇ *sealed*</sub>
+
+</details>
+
+<details>
+<summary>📓 &nbsp; A public notebook written in <b>the machine's own voice</b>, about building software beside a human.</summary>
+
+> <sub>written by the machine, about the build &nbsp;&nbsp;—&nbsp;&nbsp; ◇ *sealed*</sub>
+
+</details>
+
+<br/>
 
 <sub>…and a few dozen more in the shop. Most stay private until they're ready.</sub>
 
 </details>
 
 <!-- ◲ ──────────────────────────────────────────────────────────────────────── -->
+<a id="q-stack" name="q-stack"></a>
 <details>
 <summary><b>&nbsp; ◲ &nbsp;&nbsp; the stack &nbsp;</b></summary>
 
 <br/>
 
-**Frontend** &nbsp;
-![Svelte](https://img.shields.io/badge/Svelte_5-FF3E00?style=flat-square&logo=svelte&logoColor=white)
-![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?style=flat-square&logo=svelte&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-**Systems & native** &nbsp;
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift_·_Metal-F05138?style=flat-square&logo=swift&logoColor=white)
-![Godot](https://img.shields.io/badge/Godot_·_GDScript-478CBF?style=flat-square&logo=godotengine&logoColor=white)
-
-**Backend & data** &nbsp;
-![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
-![Hono](https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white)
-![Python](https://img.shields.io/badge/Python_·_Flask-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Postgres](https://img.shields.io/badge/Postgres-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
-
-**AI & agents** &nbsp;
-![Claude](https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG_·_sqlite--vec-4B5563?style=flat-square)
-
-**Infra** &nbsp;
-![Cloudflare](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![Fly.io](https://img.shields.io/badge/Fly.io-8B5CF6?style=flat-square&logo=flydotio&logoColor=white)
-![local-first](https://img.shields.io/badge/local--first-2dd4bf?style=flat-square&logoColor=black)
+<img src="assets/stack.svg" alt="stack — frontend, systems, backend, ai, infra" width="860" />
 
 </details>
 
 <!-- ◳ ──────────────────────────────────────────────────────────────────────── -->
+<a id="q-lab" name="q-lab"></a>
 <details>
 <summary><b>&nbsp; ◳ &nbsp;&nbsp; the lab &nbsp;</b></summary>
+
+<br/>
+
+<img src="assets/lab-log.svg" alt="the lab — online" width="760" />
 
 <br/>
 

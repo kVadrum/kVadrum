@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 288" width="1000" height="288" role="img" aria-label="the lab — online">
+  <defs>
+    <style>.mono{font-family:ui-monospace,'Cascadia Code','JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace;}</style>
+  </defs>
+
+  <!-- window -->
+  <rect width="1000" height="288" rx="14" fill="#0b0f14"/>
+  <rect x="0.75" y="0.75" width="998.5" height="286.5" rx="13.25" fill="none" stroke="#1b2230" stroke-width="1.5"/>
+
+  <!-- title bar -->
+  <line x1="0" y1="46" x2="1000" y2="46" stroke="#161d27" stroke-width="1.5"/>
+  <circle cx="26" cy="23" r="5.5" fill="#22303c"/>
+  <circle cx="46" cy="23" r="5.5" fill="#22303c"/>
+  <circle cx="66" cy="23" r="5.5" fill="#2dd4bf" opacity="0.85"/>
+  <text class="mono" x="90" y="28" font-size="15" fill="#4b5563">the-lab — session</text>
+
+  <!-- body lines (always visible; only the cursor animates) -->
+  <g class="mono" font-size="22" font-weight="500">
+    <text x="34" y="96" fill="#2dd4bf">&gt; the lab · online</text>
+    <rect x="274" y="80" width="11" height="20" fill="#2dd4bf">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="34" y="136"><tspan fill="#e6edf3">frontier</tspan><tspan fill="#30363d"> ·······</tspan><tspan fill="#8b949e"> barreling forward</tspan></text>
+    <text x="34" y="176"><tspan fill="#e6edf3">mode</tspan><tspan fill="#30363d"> ···········</tspan><tspan fill="#8b949e"> human-in-the-loop</tspan></text>
+    <text x="34" y="216"><tspan fill="#e6edf3">posture</tspan><tspan fill="#30363d"> ········</tspan><tspan fill="#8b949e"> local-first · private by default</tspan></text>
+    <text x="34" y="256"><tspan fill="#e6edf3">shop</tspan><tspan fill="#30363d"> ···········</tspan><tspan fill="#8b949e"> a few dozen organs in the backlog</tspan></text>
+  </g>
+</svg>
