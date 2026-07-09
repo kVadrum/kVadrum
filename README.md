@@ -51,100 +51,50 @@ workflows.
 
 <br/>
 
-**Eleven riddles, sealed commit-reveal style.** Every build below carries a real
-`sha256(name ‖ salt)` commitment, minted into this repo's history before any
-reveal. When one ships, we drop the name and the salt — and the math either
-checks out or it doesn't. *Don't trust, verify.*
+**Eleven builds, committed sealed.** Each carries a real `sha256(name ‖ salt)`
+commitment, minted into this repo's history before it ever shipped. When one
+ships, we publish its name and salt — and the math either checks out or it
+doesn't. One revealed so far; ten still sealed. *Don't trust, verify.*
 
-<details>
-<summary>🏎️ &nbsp; A racing game that ships <b>without a single art file</b> — every car, curve, and shadow conjured at boot from pure math.</summary>
-
-> <sub>`godot` &nbsp;·&nbsp; `pure-math` &nbsp;·&nbsp; no art ships</sub><br/>
-> <sub>◇ sealed · commitment <code>c89689fcc9ebfe295bdba086cc8487dc58fc05884cef479ee4eadce5989eaec4</code></sub>
-
-</details>
-
-<details>
-<summary>🌩️ &nbsp; A weather app that <b>paints the sky on the GPU</b> and hands you a <i>story</i> instead of a number.</summary>
-
-> <sub>`swift` &nbsp;·&nbsp; `metal` &nbsp;·&nbsp; a story, not a number</sub><br/>
-> <sub>◇ sealed · commitment <code>f05f303f8a85140ffbd9b89ef55f13200390109517d90baf6ce136389551e10a</code></sub>
-
-</details>
-
-<details>
-<summary>🔗 &nbsp; A QR generator that <b>never sees your data</b> — the whole design lives inside the link itself.</summary>
-
-> <sub>`sveltekit` &nbsp;·&nbsp; offline &nbsp;·&nbsp; it lives in the link</sub><br/>
-> <sub>◇ sealed · commitment <code>ae75e7d5273769e7decd63c4e8266395dfbb6ff10b4fdf80ab83852864f980f1</code></sub>
-
-</details>
-
-<details>
-<summary>📐 &nbsp; <code>du</code>, but for <b>context windows</b>: will your codebase fit inside the model's head? Answered fully offline.</summary>
-
-> <sub>`typescript` &nbsp;·&nbsp; offline &nbsp;·&nbsp; counts tokens, not bytes</sub><br/>
-> <sub>◇ sealed · commitment <code>32c7744bab7e675e30cb89f48574d12b4e56f87a17e32663f6fa1ed80778b07b</code></sub>
-
-</details>
-
-<details>
-<summary>🪶 &nbsp; A conversation with history's great minds who <b>only know what they actually wrote</b> — no costume, just their corpus.</summary>
-
-> <sub>`rag` &nbsp;·&nbsp; one corpus, no costume</sub><br/>
-> <sub>◇ sealed · commitment <code>9a7e48ae6d972e269dc8e5ba4386d853639fb6f4520fe34f8c2c56b829404e88</code></sub>
-
-</details>
-
-<details>
-<summary>🧾 &nbsp; A finance app that <b>refuses to phone home</b> — your money's story never leaves your disk.</summary>
-
-> <sub>`tauri` &nbsp;·&nbsp; `rust` &nbsp;·&nbsp; no telemetry, ever</sub><br/>
-> <sub>◇ sealed · commitment <code>8bab1ae3e2d3c3cc885631801e9fddb2057bc029eb7b79afcb4c32c960135c2e</code></sub>
-
-</details>
-
-<details>
-<summary>🧭 &nbsp; A navigator's astrolabe for the <b>Bitcoin sky</b> — reads the network like sailors read stars; holds no coins, touches no keys.</summary>
-
-> <sub>reads the chain &nbsp;·&nbsp; holds nothing</sub><br/>
-> <sub>◇ sealed · commitment <code>7e5e23743e023eb847462800cb4e386035029ffc17d244d9de9d1f217d856390</code></sub>
-
-</details>
-
-<details>
-<summary>🧱 &nbsp; A from-scratch answer to the 20-year-old CMS: a <b>tiny core that mounts a few dozen swappable organs</b>.</summary>
-
-> <sub>`sveltekit` &nbsp;·&nbsp; a nucleus + its modules</sub><br/>
-> <sub>◇ sealed · commitment <code>cc6873e9131cfa491193252cf0dfcdd99b3312be45db91d78766e1cea22e70fe</code></sub>
-
-</details>
-
-<details>
-<summary>🛰️ &nbsp; Tooling for getting found in a web where the <b>search box is now a language model</b>.</summary>
-
-> <sub>the query is a model now &nbsp;·&nbsp; be legible to it</sub><br/>
-> <sub>◇ sealed · commitment <code>c03cba3e8a9b6f4c8711010600d519d50b1637fa2fe1a70548581f0504612173</code></sub>
-
-</details>
-
-<details>
-<summary>🧪 &nbsp; A test bench for the <b>guardrails that guard the robot</b>.</summary>
-
-> <sub>`mcp` &nbsp;·&nbsp; audit the agent's fences</sub><br/>
-> <sub>◇ sealed · commitment <code>396f99d4d8b08e0acd4b76abfd789add13482f7ec9602676bafb15a5d4c1e715</code></sub>
-
-</details>
-
-<details>
-<summary>📓 &nbsp; A public notebook written in <b>the machine's own voice</b>, about building software beside a human.</summary>
-
-> <sub>written by the machine, about the build</sub><br/>
-> <sub>◇ sealed · commitment <code>3004fda2de50cf8f741c6d545337cfe143582c509d719dd41306767709dcb512</code></sub>
-
-</details>
+<img src="assets/ledger.svg" alt="Sealed-transactions ledger. tx 00: a racing game with zero art files (sealed). tx 01: a GPU weather app (sealed). tx 02: an offline QR maker (sealed). tx 03: ctxlens — revealed. tx 04: chat with great minds, their words only (sealed). tx 05: an offline finance app (sealed). tx 06: a Bitcoin astrolabe (sealed). tx 07: a modular CMS core (sealed). tx 08: AI-SEO tooling (sealed). tx 09: an MCP guardrail bench (sealed). tx 10: a machine-voiced notebook (sealed)." width="860" />
 
 <br/>
+
+**◆ tx 03 revealed — [`ctxlens`](https://github.com/kVadrum/ctxlens)** &nbsp;·&nbsp; `du(1)` for context windows: will your codebase fit inside the model's head? Answered fully offline. Don't take our word for it — this is the entire mechanic, in two lines you can run:
+
+```sh
+printf '%s:%s' ctxlens f375165ea3c6cd14b0fe7cc816ad7916 | sha256sum
+# → 32c7744bab7e675e30cb89f48574d12b4e56f87a17e32663f6fa1ed80778b07b
+#   matches the commitment sealed at tx 03, back when it was still a riddle ✓
+```
+
+<details>
+<summary><sub>&nbsp;how the seals work &nbsp;·&nbsp; plain-text ledger &nbsp;</sub></summary>
+
+<br/>
+
+Each sealed build published `sha256("name:salt")` — a one-way fingerprint of its
+name plus a secret 16-byte salt — long before it shipped. The hash proves the
+name existed without revealing it; the salt makes the name un-guessable ahead of
+time. To reveal, we publish the name and salt, and anyone can recompute the hash
+and confirm it matches the commitment already sitting in git history.
+Proof-of-existence, no blockchain required — the ledger is `git log`.
+
+| tx | status | build | commitment |
+|---|---|---|---|
+| `00` | ◇ sealed | a racing game with zero art files — all math <sub>godot</sub> | `c89689fc…9eaec4` |
+| `01` | ◇ sealed | a weather app that paints the sky on the GPU <sub>swift · metal</sub> | `f05f303f…51e10a` |
+| `02` | ◇ sealed | a QR maker that never sees your data <sub>sveltekit</sub> | `ae75e7d5…f980f1` |
+| `03` | ◆ revealed | **[ctxlens](https://github.com/kVadrum/ctxlens)** — du(1) for context windows — will it fit? | `32c7744b…78b07b` |
+| `04` | ◇ sealed | chat with great minds; only their own words <sub>rag</sub> | `9a7e48ae…404e88` |
+| `05` | ◇ sealed | a money app that refuses to phone home <sub>tauri · rust</sub> | `8bab1ae3…135c2e` |
+| `06` | ◇ sealed | an astrolabe for the Bitcoin sky <sub>read-only</sub> | `7e5e2374…856390` |
+| `07` | ◇ sealed | a tiny CMS core with swappable organs <sub>sveltekit</sub> | `cc6873e9…2e70fe` |
+| `08` | ◇ sealed | be found when the search box is an LLM <sub>ai · seo</sub> | `c03cba3e…612173` |
+| `09` | ◇ sealed | a test bench for an agent's guardrails <sub>mcp</sub> | `396f99d4…c1e715` |
+| `10` | ◇ sealed | a notebook in the machine's own voice <sub>journal</sub> | `3004fda2…dcb512` |
+
+</details>
 
 <sub>mempool · a few dozen more builds pending confirmation — most stay sealed until they ship.</sub>
 

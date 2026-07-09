@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 714" width="1200" height="714" role="img" aria-label="sealed transactions — commit-reveal ledger">
+  <defs>
+    <linearGradient id="iri" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <style>.mono{font-family:ui-monospace,'Cascadia Code','JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace;}</style>
+  </defs>
+
+  <rect width="1200" height="714" rx="14" fill="#0d1117"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="712.5" rx="13.25" fill="none" stroke="#1b2230" stroke-width="1.5"/>
+
+  <!-- header -->
+  <text class="mono" x="30" y="42" font-size="21" font-weight="700" fill="#e6edf3">sealed transactions</text>
+  <circle cx="262" cy="35" r="4.5" fill="#2dd4bf"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
+  <text class="mono" x="30" y="64" font-size="14" fill="#8b949e">commit-reveal · <tspan fill="#7c8694">sha256(name ‖ salt)</tspan> minted before any reveal</text>
+  <text class="mono" x="1170" y="42" font-size="14" text-anchor="end" fill="#5eead4">1 revealed</text>
+  <text class="mono" x="1170" y="64" font-size="14" text-anchor="end" fill="#6b7684">10 sealed</text>
+
+  <!-- column header -->
+  <line x1="22" y1="78" x2="1178" y2="78" stroke="#1b2230" stroke-width="1.5"/>
+  <g class="mono" font-size="12" letter-spacing="1.5" fill="#5b6673">
+    <text x="32" y="100">TX</text>
+    <text x="108" y="100">STATUS</text>
+    <text x="330" y="100">BUILD</text>
+    <text x="1154" y="100" text-anchor="end">COMMITMENT</text>
+  </g>
+  <line x1="22" y1="112" x2="1178" y2="112" stroke="#161d27" stroke-width="1"/>
+
+  <rect x="32" y="123" width="44" height="28" rx="7" fill="#131a24" stroke="#243040" stroke-width="1.25"/>
+  <text class="mono" x="54" y="142" font-size="14" text-anchor="middle" fill="#8b949e">00</text>
+  <text x="108" y="143" font-size="17" fill="#4b5563">◇</text>
+  <text class="mono" x="134" y="142" font-size="14" letter-spacing="0.5" fill="#6b7684">sealed</text>
+  <text class="mono" x="330" y="142" font-size="18" fill="#c9d3de">a racing game with zero art files — all math<tspan fill="#3f4a57" font-size="14">   godot</tspan></text>
+  <text class="mono" x="1154" y="142" font-size="15" text-anchor="end" fill="#39424f">c89689fc…9eaec4</text>
+  <circle cx="1166" cy="137" r="3" fill="#2a3340"/>
+  <rect x="22" y="165" width="1156" height="44" rx="9" fill="#0b0f14"/>
+  <rect x="32" y="173" width="44" height="28" rx="7" fill="#131a24" stroke="#243040" stroke-width="1.25"/>
+  <text class="mono" x="54" y="192" font-size="14" text-anchor="middle" fill="#8b949e">01</text>
+  <text x="108" y="193" font-size="17" fill="#4b5563">◇</text>
+  <text class="mono" x="134" y="192" font-size="14" letter-spacing="0.5" fill="#6b7684">sealed</text>
+  <text class="mono" x="330" y="192" font-size="18" fill="#c9d3de">a weather app that paints the sky on the GPU<tspan fill="#3f4a57" font-size="14">   swift · metal</tspan></text>
+  <text class="mono" x="1154" y="192" font-size="15" text-anchor="end" fill="#39424f">f05f303f…51e10a</text>
+  <circle cx="1166" cy="187" r="3" fill="#2a3340"/>
+  <rect x="32" y="223" width="44" height="28" rx="7" fill="#131a24" stroke="#243040" stroke-width="1.25"/>
+  <text class="mono" x="54" y="242" font-size="14" text-anchor="middle" fill="#8b949e">02</text>
+  <text x="108" y="243" font-size="17" fill="#4b5563">◇</text>
+  <text class="mono" x="134" y="242" font-size="14" letter-spacing="0.5" fill="#6b7684">sealed</text>
+  <text class="mono" x="330" y="242" font-size="18" fill="#c9d3de">a QR maker that never sees your data<tspan fill="#3f4a57" font-size="14">   sveltekit</tspan></text>
+  <text class="mono" x="1154" y="242" font-size="15" text-anchor="end" fill="#39424f">ae75e7d5…f980f1</text>
+  <circle cx="1166" cy="237" r="3" fill="#2a3340"/>
+  <rect x="22" y="265" width="1156" height="44" rx="9" fill="#0e1a1c"/>
+  <rect x="22" y="265" width="3" height="44" rx="1.5" fill="url(#iri)"/>
+  <rect x="32" y="273" width="44" height="28" rx="7" fill="#131a24" stroke="#243040" stroke-width="1.25"/>
+  <text class="mono" x="54" y="292" font-size="14" text-anchor="middle" fill="#5eead4">03</text>
+  <text x="108" y="293" font-size="17" fill="url(#iri)">◆</text>
+  <text class="mono" x="134" y="292" font-size="14" letter-spacing="0.5" fill="#5eead4">revealed</text>
+  <text class="mono" x="330" y="292" font-size="18" fill="#e6edf3"><tspan font-weight="700" fill="#2dd4bf">ctxlens</tspan><tspan fill="#5b6673"> — du(1) for context windows — will it fit?</tspan></text>
+  <text class="mono" x="330" y="292" font-size="18" opacity="0"> </text>
+  <text class="mono" x="1154" y="292" font-size="15" text-anchor="end" fill="#3a5f5a">32c7744b…78b07b</text>
+  <circle cx="1166" cy="287" r="3" fill="#2dd4bf"/>
+  <rect x="32" y="323" width="44" height="28" rx="7" fill="#131a24" stroke="#243040" stroke-width="1.25"/>
+  <text class="mono" x="54" y="342" font-size="14" text-anchor="middle" fill="#8b949e">04</text>
+  <text x="108" y="343" font-size="17" fill="#4b5563">◇</text>
+  <text class="mono" x="134" y="342" font-size="14" letter-spacing="0.5" fill="#6b7684">sealed</text>
+  <text class="mono" x="330" y="342" font-size="18" fill="#c9d3de">chat with great minds; only their own words<tspan fill="#3f4a57" font-size="14">   rag</tspan></text>
+  <text class="mono" x="1154" y="342" font-size="15" text-anchor="end" fill="#39424f">9a7e48ae…404e88</text>
+  <circle cx="1166" cy="337" r="3" fill="#2a3340"/>
+  <rect x="22" y="365" width="1156" height="44" rx="9" fill="#0b0f14"/>
+  <rect x="32" y="373" width="44" height="28" rx="7" fill="#131a24" stroke="#243040" stroke-width="1.25"/>
+  <text class="mono" x="54" y="392" font-size="14" text-anchor="middle" fill="#8b949e">05</text>
+  <text x="108" y="393" font-size="17" fill="#4b5563">◇</text>
+  <text class="mono" x="134" y="392" font-size="14" letter-spacing="0.5" fill="#6b7684">sealed</text>
+  <text class="mono" x="330" y="392" font-size="18" fill="#c9d3de">a money app that refuses to phone home<tspan fill="#3f4a57" font-size="14">   tauri · rust</tspan></text>
+  <text class="mono" x="1154" y="392" font-size="15" text-anchor="end" fill="#39424f">8bab1ae3…135c2e</text>
+  <circle cx="1166" cy="387" r="3" fill="#2a3340"/>
+  <rect x="32" y="423" width="44" height="28" rx="7" fill="#131a24" stroke="#243040" stroke-width="1.25"/>
+  <text class="mono" x="54" y="442" font-size="14" text-anchor="middle" fill="#8b949e">06</text>
+  <text x="108" y="443" font-size="17" fill="#4b5563">◇</text>
+  <text class="mono" x="134" y="442" font-size="14" letter-spacing="0.5" fill="#6b7684">sealed</text>
+  <text class="mono" x="330" y="442" font-size="18" fill="#c9d3de">an astrolabe for the Bitcoin sky<tspan fill="#3f4a57" font-size="14">   read-only</tspan></text>
+  <text class="mono" x="1154" y="442" font-size="15" text-anchor="end" fill="#39424f">7e5e2374…856390</text>
+  <circle cx="1166" cy="437" r="3" fill="#2a3340"/>
+  <rect x="22" y="465" width="1156" height="44" rx="9" fill="#0b0f14"/>
+  <rect x="32" y="473" width="44" height="28" rx="7" fill="#131a24" stroke="#243040" stroke-width="1.25"/>
+  <text class="mono" x="54" y="492" font-size="14" text-anchor="middle" fill="#8b949e">07</text>
+  <text x="108" y="493" font-size="17" fill="#4b5563">◇</text>
+  <text class="mono" x="134" y="492" font-size="14" letter-spacing="0.5" fill="#6b7684">sealed</text>
+  <text class="mono" x="330" y="492" font-size="18" fill="#c9d3de">a tiny CMS core with swappable organs<tspan fill="#3f4a57" font-size="14">   sveltekit</tspan></text>
+  <text class="mono" x="1154" y="492" font-size="15" text-anchor="end" fill="#39424f">cc6873e9…2e70fe</text>
+  <circle cx="1166" cy="487" r="3" fill="#2a3340"/>
+  <rect x="32" y="523" width="44" height="28" rx="7" fill="#131a24" stroke="#243040" stroke-width="1.25"/>
+  <text class="mono" x="54" y="542" font-size="14" text-anchor="middle" fill="#8b949e">08</text>
+  <text x="108" y="543" font-size="17" fill="#4b5563">◇</text>
+  <text class="mono" x="134" y="542" font-size="14" letter-spacing="0.5" fill="#6b7684">sealed</text>
+  <text class="mono" x="330" y="542" font-size="18" fill="#c9d3de">be found when the search box is an LLM<tspan fill="#3f4a57" font-size="14">   ai · seo</tspan></text>
+  <text class="mono" x="1154" y="542" font-size="15" text-anchor="end" fill="#39424f">c03cba3e…612173</text>
+  <circle cx="1166" cy="537" r="3" fill="#2a3340"/>
+  <rect x="22" y="565" width="1156" height="44" rx="9" fill="#0b0f14"/>
+  <rect x="32" y="573" width="44" height="28" rx="7" fill="#131a24" stroke="#243040" stroke-width="1.25"/>
+  <text class="mono" x="54" y="592" font-size="14" text-anchor="middle" fill="#8b949e">09</text>
+  <text x="108" y="593" font-size="17" fill="#4b5563">◇</text>
+  <text class="mono" x="134" y="592" font-size="14" letter-spacing="0.5" fill="#6b7684">sealed</text>
+  <text class="mono" x="330" y="592" font-size="18" fill="#c9d3de">a test bench for an agent's guardrails<tspan fill="#3f4a57" font-size="14">   mcp</tspan></text>
+  <text class="mono" x="1154" y="592" font-size="15" text-anchor="end" fill="#39424f">396f99d4…c1e715</text>
+  <circle cx="1166" cy="587" r="3" fill="#2a3340"/>
+  <rect x="32" y="623" width="44" height="28" rx="7" fill="#131a24" stroke="#243040" stroke-width="1.25"/>
+  <text class="mono" x="54" y="642" font-size="14" text-anchor="middle" fill="#8b949e">10</text>
+  <text x="108" y="643" font-size="17" fill="#4b5563">◇</text>
+  <text class="mono" x="134" y="642" font-size="14" letter-spacing="0.5" fill="#6b7684">sealed</text>
+  <text class="mono" x="330" y="642" font-size="18" fill="#c9d3de">a notebook in the machine's own voice<tspan fill="#3f4a57" font-size="14">   journal</tspan></text>
+  <text class="mono" x="1154" y="642" font-size="15" text-anchor="end" fill="#39424f">3004fda2…dcb512</text>
+  <circle cx="1166" cy="637" r="3" fill="#2a3340"/>
+
+  <!-- footer -->
+  <line x1="22" y1="662" x2="1178" y2="662" stroke="#161d27" stroke-width="1"/>
+  <text class="mono" x="30" y="694" font-size="14" fill="#6b7684"><tspan fill="#4b5563">◇</tspan> sealed until it ships   ·   <tspan fill="#2dd4bf">◆</tspan> revealed — verify the hash yourself</text>
+  <text class="mono" x="1170" y="694" font-size="13" text-anchor="end" fill="#3f4a57">the ledger is git log</text>
+</svg>

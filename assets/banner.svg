@@ -49,15 +49,15 @@
 
     <!-- genesis cell: steady, iridescent -->
     <rect x="0" y="0" width="56" height="56" rx="9" fill="url(#iri)"/>
-    <!-- the next three blocks: rest dim, flash once on boot -->
+    <!-- mining sweep: the next three blocks pulse in sequence, forever extending the chain -->
     <rect x="64" y="0"  width="56" height="56" rx="9" fill="url(#teal)" opacity="0.14">
-      <animate attributeName="opacity" values="0.14;1;1;0.14" keyTimes="0;0.3;0.55;1" dur="1.5s" begin="0.35s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.14;1;0.14" keyTimes="0;0.13;0.34" dur="3.6s" begin="0s"    repeatCount="indefinite"/>
     </rect>
     <rect x="0"  y="64" width="56" height="56" rx="9" fill="url(#teal)" opacity="0.14">
-      <animate attributeName="opacity" values="0.14;1;1;0.14" keyTimes="0;0.3;0.55;1" dur="1.5s" begin="0.55s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.14;1;0.14" keyTimes="0;0.13;0.34" dur="3.6s" begin="0.45s" repeatCount="indefinite"/>
     </rect>
-    <rect x="64" y="64" width="56" height="56" rx="9" fill="url(#teal)" opacity="0.22">
-      <animate attributeName="opacity" values="0.22;1;1;0.22" keyTimes="0;0.3;0.55;1" dur="1.5s" begin="0.75s" fill="freeze"/>
+    <rect x="64" y="64" width="56" height="56" rx="9" fill="url(#teal)" opacity="0.14">
+      <animate attributeName="opacity" values="0.14;1;0.14" keyTimes="0;0.13;0.34" dur="3.6s" begin="0.9s"  repeatCount="indefinite"/>
     </rect>
   </g>
 
@@ -79,45 +79,46 @@
     <text x="278" y="240" opacity="0">don't trust, verify<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.75;0.77;0.98;1" dur="10s" repeatCount="indefinite"/></text>
   </g>
 
-  <!-- ══ recent-blocks explorer card (real chain: this repo's git history) ══ -->
+  <!-- ══ the ledger: evergreen chain card — genesis is permanent, HEAD is always mining ══ -->
   <g transform="translate(760 40)">
     <rect width="400" height="212" rx="14" fill="#0b0f14"/>
     <rect x="0.75" y="0.75" width="398.5" height="210.5" rx="13.25" fill="none" stroke="#1b2230" stroke-width="1.5"/>
-    <text class="mono" x="22" y="30" font-size="15" letter-spacing="1" fill="#8b949e">recent blocks</text>
+    <text class="mono" x="22" y="30" font-size="15" letter-spacing="1" fill="#8b949e">the ledger</text>
     <circle cx="372" cy="24" r="4.5" fill="#2dd4bf">
       <animate attributeName="opacity" values="1;0.25;1" dur="2.2s" repeatCount="indefinite"/>
     </circle>
     <line x1="0" y1="44" x2="400" y2="44" stroke="#161d27" stroke-width="1.5"/>
 
-    <!-- blk 021 (latest) -->
+    <!-- HEAD: mining — the hash scrambles forever; no pinned sha, so it never goes stale -->
     <g class="mono">
-      <rect x="22" y="60" width="54" height="26" rx="7" fill="#131a24" stroke="#243040" stroke-width="1.25"/>
-      <text x="34" y="78" font-size="14" fill="#2dd4bf">021</text>
-      <text x="92" y="79" font-size="18" fill="#e6edf3">9b415c9</text>
-      <text x="212" y="78" font-size="13" fill="#8b949e">profile boots</text>
-      <circle cx="374" cy="71" r="3.5" fill="url(#iri)">
-        <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/>
+      <rect x="22" y="62" width="58" height="26" rx="7" fill="#101d1c" stroke="#1f7a6e" stroke-width="1.25"/>
+      <text x="34" y="80" font-size="13" fill="#2dd4bf">HEAD</text>
+      <g font-size="18" fill="#5eead4">
+        <text x="96" y="81" opacity="0">3f9a1c7e08b2<animate attributeName="opacity" values="1;0;0;0" keyTimes="0;0.25;0.5;0.75" calcMode="discrete" dur="1.2s" repeatCount="indefinite"/></text>
+        <text x="96" y="81" opacity="0">a1b2c3d4e5f6<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.25;0.5;0.75" calcMode="discrete" dur="1.2s" repeatCount="indefinite"/></text>
+        <text x="96" y="81" opacity="0">7c0e5a93be14<animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.25;0.5;0.75" calcMode="discrete" dur="1.2s" repeatCount="indefinite"/></text>
+        <text x="96" y="81" opacity="0">e2d6ab04f7c1<animate attributeName="opacity" values="0;0;0;1" keyTimes="0;0.25;0.5;0.75" calcMode="discrete" dur="1.2s" repeatCount="indefinite"/></text>
+      </g>
+      <text x="266" y="80" font-size="13" fill="#4b5563">· mining</text>
+      <circle cx="374" cy="75" r="3.5" fill="url(#iri)">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.1s" repeatCount="indefinite"/>
       </circle>
     </g>
-    <!-- blk 020 -->
-    <g class="mono" opacity="0.75">
-      <rect x="22" y="104" width="54" height="26" rx="7" fill="#131a24" stroke="#243040" stroke-width="1.25"/>
-      <text x="34" y="122" font-size="14" fill="#2dd4bf">020</text>
-      <text x="92" y="123" font-size="18" fill="#e6edf3">adf8bdf</text>
-      <text x="212" y="122" font-size="13" fill="#8b949e">trim + tidy</text>
-    </g>
-    <!-- blk 019 -->
-    <g class="mono" opacity="0.5">
-      <rect x="22" y="148" width="54" height="26" rx="7" fill="#131a24" stroke="#243040" stroke-width="1.25"/>
-      <text x="34" y="166" font-size="14" fill="#2dd4bf">019</text>
-      <text x="92" y="167" font-size="18" fill="#e6edf3">f6cbfe3</text>
-      <text x="212" y="166" font-size="13" fill="#8b949e">hero fold</text>
+
+    <!-- the chain, elided -->
+    <text class="mono" x="34" y="126" font-size="15" fill="#2a3340">⋮</text>
+    <text class="mono" x="96" y="130" font-size="13" fill="#4b5563">the chain — block by block, in git</text>
+
+    <!-- block 000: genesis — a real, permanent sha that can never rot -->
+    <g class="mono">
+      <rect x="22" y="150" width="58" height="26" rx="7" fill="#131a24" stroke="#243040" stroke-width="1.25"/>
+      <text x="41" y="168" font-size="13" fill="#8b949e">000</text>
+      <text x="96" y="169" font-size="18" fill="#c9d3de">1e2d6ab</text>
+      <text x="200" y="168" font-size="13" fill="#8b949e">genesis · initial commit</text>
     </g>
 
-    <text class="mono" x="22" y="196" font-size="13" fill="#4b5563">next block · building</text>
-    <rect x="182" y="185" width="8" height="12" fill="#4b5563">
-      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
-    </rect>
+    <line x1="16" y1="186" x2="384" y2="186" stroke="#161d27" stroke-width="1"/>
+    <text class="mono" x="22" y="203" font-size="12" fill="#3f4a57">don't trust, verify — the ledger is git log</text>
   </g>
 
   <!-- ══ hash ticker: the chain itself, drifting ══ -->
