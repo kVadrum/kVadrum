@@ -51,7 +51,7 @@ workflows.
 
 <br/>
 
-**Eleven builds, committed sealed.** Each carries a real `sha256(name ‖ salt)`
+**Eleven builds, committed sealed.** Each carries a real `sha256(name:salt)`
 commitment, minted into this repo's history before it ever shipped. When one
 ships, we publish its name and salt — and the math either checks out or it
 doesn't. One revealed so far; ten still sealed. *Don't trust, verify.*

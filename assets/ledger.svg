@@ -13,7 +13,7 @@
   <!-- header -->
   <text class="mono" x="30" y="42" font-size="21" font-weight="700" fill="#e6edf3">sealed transactions</text>
   <circle cx="262" cy="35" r="4.5" fill="#2dd4bf"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
-  <text class="mono" x="30" y="64" font-size="14" fill="#8b949e">commit-reveal · <tspan fill="#7c8694">sha256(name ‖ salt)</tspan> minted before any reveal</text>
+  <text class="mono" x="30" y="64" font-size="14" fill="#8b949e">commit-reveal · <tspan fill="#7c8694">sha256(name:salt)</tspan> minted before any reveal</text>
   <text class="mono" x="1170" y="42" font-size="14" text-anchor="end" fill="#5eead4">1 revealed</text>
   <text class="mono" x="1170" y="64" font-size="14" text-anchor="end" fill="#6b7684">10 sealed</text>
 

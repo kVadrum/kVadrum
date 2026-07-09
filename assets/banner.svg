@@ -51,13 +51,13 @@
     <rect x="0" y="0" width="56" height="56" rx="9" fill="url(#iri)"/>
     <!-- mining sweep: the next three blocks pulse in sequence, forever extending the chain -->
     <rect x="64" y="0"  width="56" height="56" rx="9" fill="url(#teal)" opacity="0.14">
-      <animate attributeName="opacity" values="0.14;1;0.14" keyTimes="0;0.13;0.34" dur="3.6s" begin="0s"    repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.14;1;0.14;0.14" keyTimes="0;0.13;0.34;1" dur="3.6s" begin="0s"    repeatCount="indefinite"/>
     </rect>
     <rect x="0"  y="64" width="56" height="56" rx="9" fill="url(#teal)" opacity="0.14">
-      <animate attributeName="opacity" values="0.14;1;0.14" keyTimes="0;0.13;0.34" dur="3.6s" begin="0.45s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.14;1;0.14;0.14" keyTimes="0;0.13;0.34;1" dur="3.6s" begin="0.45s" repeatCount="indefinite"/>
     </rect>
     <rect x="64" y="64" width="56" height="56" rx="9" fill="url(#teal)" opacity="0.14">
-      <animate attributeName="opacity" values="0.14;1;0.14" keyTimes="0;0.13;0.34" dur="3.6s" begin="0.9s"  repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.14;1;0.14;0.14" keyTimes="0;0.13;0.34;1" dur="3.6s" begin="0.9s"  repeatCount="indefinite"/>
     </rect>
   </g>
 
@@ -94,7 +94,7 @@
       <rect x="22" y="62" width="58" height="26" rx="7" fill="#101d1c" stroke="#1f7a6e" stroke-width="1.25"/>
       <text x="34" y="80" font-size="13" fill="#2dd4bf">HEAD</text>
       <g font-size="18" fill="#5eead4">
-        <text x="96" y="81" opacity="0">3f9a1c7e08b2<animate attributeName="opacity" values="1;0;0;0" keyTimes="0;0.25;0.5;0.75" calcMode="discrete" dur="1.2s" repeatCount="indefinite"/></text>
+        <text x="96" y="81" opacity="1">3f9a1c7e08b2<animate attributeName="opacity" values="1;0;0;0" keyTimes="0;0.25;0.5;0.75" calcMode="discrete" dur="1.2s" repeatCount="indefinite"/></text>
         <text x="96" y="81" opacity="0">a1b2c3d4e5f6<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.25;0.5;0.75" calcMode="discrete" dur="1.2s" repeatCount="indefinite"/></text>
         <text x="96" y="81" opacity="0">7c0e5a93be14<animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.25;0.5;0.75" calcMode="discrete" dur="1.2s" repeatCount="indefinite"/></text>
         <text x="96" y="81" opacity="0">e2d6ab04f7c1<animate attributeName="opacity" values="0;0;0;1" keyTimes="0;0.25;0.5;0.75" calcMode="discrete" dur="1.2s" repeatCount="indefinite"/></text>
