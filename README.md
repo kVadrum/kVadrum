@@ -129,6 +129,10 @@ relentless — and the Lab runs toward it, not from it. We experiment at the edg
 agentic development, bet that the frontier keeps barreling forward, and build for
 whatever comes next.
 
+Every build runs through a fleet of frontier agents — Claude, Codex, Gemini,
+Grok — cross-checking one another, wired together through **OpenClaw** and kept
+honest by a human in the loop.
+
 </details>
 
 ---

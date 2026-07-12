@@ -102,6 +102,21 @@
     <text class="mono" x="30" y="30" font-size="22" font-weight="500" fill="#c9d3de">Claude API</text>
   </g>
   <g transform="translate(456 352)">
+    <rect width="118" height="44" rx="10" fill="#131a24" stroke="#243040" stroke-width="1.5"/>
+    <circle cx="18" cy="22" r="4.5" fill="#10A37F"/>
+    <text class="mono" x="30" y="30" font-size="22" font-weight="500" fill="#c9d3de">Codex</text>
+  </g>
+  <g transform="translate(586 352)">
+    <rect width="131" height="44" rx="10" fill="#131a24" stroke="#243040" stroke-width="1.5"/>
+    <circle cx="18" cy="22" r="4.5" fill="#4285F4"/>
+    <text class="mono" x="30" y="30" font-size="22" font-weight="500" fill="#c9d3de">Gemini</text>
+  </g>
+  <g transform="translate(729 352)">
+    <rect width="105" height="44" rx="10" fill="#131a24" stroke="#243040" stroke-width="1.5"/>
+    <circle cx="18" cy="22" r="4.5" fill="#e5e7eb"/>
+    <text class="mono" x="30" y="30" font-size="22" font-weight="500" fill="#c9d3de">Grok</text>
+  </g>
+  <g transform="translate(846 352)">
     <rect width="263" height="44" rx="10" fill="#131a24" stroke="#243040" stroke-width="1.5"/>
     <circle cx="18" cy="22" r="4.5" fill="#94a3b8"/>
     <text class="mono" x="30" y="30" font-size="22" font-weight="500" fill="#c9d3de">RAG · sqlite-vec</text>
