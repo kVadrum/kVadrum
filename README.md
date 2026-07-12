@@ -46,7 +46,7 @@ workflows.
 
 <!-- ◱ ──────────────────────────────────────────────────────────────────────── -->
 <a id="q-work" name="q-work"></a>
-<details>
+<details open>
 <summary><b>&nbsp; ◱ &nbsp;&nbsp; the work &nbsp;</b></summary>
 
 <br/>
@@ -102,7 +102,7 @@ Proof-of-existence, no blockchain required — the ledger is `git log`.
 
 <!-- ◲ ──────────────────────────────────────────────────────────────────────── -->
 <a id="q-stack" name="q-stack"></a>
-<details>
+<details open>
 <summary><b>&nbsp; ◲ &nbsp;&nbsp; the stack &nbsp;</b></summary>
 
 <br/>
@@ -113,7 +113,7 @@ Proof-of-existence, no blockchain required — the ledger is `git log`.
 
 <!-- ◳ ──────────────────────────────────────────────────────────────────────── -->
 <a id="q-lab" name="q-lab"></a>
-<details>
+<details open>
 <summary><b>&nbsp; ◳ &nbsp;&nbsp; the lab &nbsp;</b></summary>
 
 <br/>
